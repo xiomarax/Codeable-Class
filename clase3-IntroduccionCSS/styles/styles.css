@@ -1,0 +1,103 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+    background-color: gray;
+}
+
+.mision h2 {
+    color: yellowgreen;
+}
+
+.mision div h3 {
+    font-size: 30px;
+} */
+
+/* estilos a atributos */
+/* [href="#catalogo"]{
+    text-decoration: none;
+    color: red;
+    font-size: 30px;
+} */
+
+/* .parrafo2, #parrafo{
+    color: blueviolet;
+    font-size: 20px;
+} */
+
+/* pseudoclases */
+/* cambia de color al pasar el cursor por el elemento */
+/* #parrafo:hover {
+    color: orange;
+} */
+
+/* :focus, es para formularios, cuando se da en TAB */
+
+/* .catalogo {
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+/* para inhabilitar que el usuario entre al enlace */
+    /* y el cursor se bloquea al pasar por ese elemento */
+/* .catalogo:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+} */
+
+/* para crear algun tipo de contenido antes o despues de una etiqueta html */
+/* #parrafo::before {
+content: ":D" ;
+font-weight: bold;
+} */
+
+/* #parrafo::after{
+    content: " :)";
+font-weight: bold;
+
+} */
+
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* .mision {
+    font-size: 20px;
+} */
+
+/* .mision p {
+    font-size: 1.5em;
+} */
+
+/* util para dispositivos moviles, se multiplica el tamaño
+de letra de su padre por el valor del rem */
+.mision p {
+    /* font-size: 1rem; */
+    /* font-size: 150%; */
+    /* font-weight: lighter; */
+    font-style: oblique;
+    line-height: 2;
+}
+
+/* para cargar una fuente externa */
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
